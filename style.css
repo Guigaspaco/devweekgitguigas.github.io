@@ -29,6 +29,7 @@
 
 .left-section-contents {
   padding: 2rem 2rem;
+  column-gap: 9px;
 }
 
 .profile {
@@ -37,8 +38,16 @@
 }
 
 .profile .profile-img {
-  width: 100%;
-  border-radius: 100%;
+  width: 70%;
+  border-radius: 70%;
+  border: 5px solid aqua;
+  padding-right: 2rem 2rem;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
@@ -47,6 +56,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 8px;
 }
 
 .profession {
@@ -63,30 +73,41 @@
 }
 * .left-title {
   color: #eeeeee;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .contact-info ul {
-  padding-top: 1.5rem;
+  padding-top: 1.7rem;
+  font-size: 15px;
 }
 
 .contact-info ul li,
 .references ul li {
-  padding: 0.4rem 0;
+  padding: 0.2rem 0.3rem;
   color: #eeeeee;
   line-height: auto;
   letter-spacing: 1px;
+  text-align: justify;
+  padding-right: 2rem 2rem;
 }
 
 .contact-info ul li i,
 .references ul li i {
-  padding-right: 1rem;
-  font-size: 14px;
+  padding-right: 3rem 3rem;
+  font-size: 12px;
+  color: #eeeeee;
+}
+
+.skills {
+  padding-top: 1.5rem;
+  border-bottom: 2px solid #eeeeee;
   color: #eeeeee;
 }
 
 .skills ul {
   padding-top: 1.5rem;
+  border-bottom: 2px solid #eeeeee;
+  color: #eeeeee;
 }
 .skills ul li p {
   padding: 0.4rem 0;
@@ -94,18 +115,21 @@
 }
 
 .right-section-contents {
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   color: #eeeeee;
   font-size: 18px;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .right-title {
   color: #eeeeee;
   font-size: 18px;
+  padding-top: 12px;
 }
 
 .gap {
   padding-bottom: 2rem;
+  color: #f1f8fd;
 }
 .experience-contents,
 .education-contents,
@@ -124,7 +148,7 @@
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
   font-size: 18px;
 }
@@ -140,4 +164,17 @@
 .awards-desc {
   font-size: 16px;
   padding-left: 5px;
+}
+
+body {
+  background-color: #fbfdf7;
+}
+
+.left-section {
+  background-color: #00204a;
+  padding-left: 5px;
+}
+
+.right-section {
+  background-color: #4b6982;
 }
